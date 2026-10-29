@@ -1,0 +1,33 @@
+# Somente codigo, documentacao e recursos aprovados.
+*
+!.gitignore
+!.gitattributes
+!README.md
+!requirements*.txt
+!*.py
+!*.pyw
+
+# Dados e configuracoes exclusivamente locais.
+.venv/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.agents/
+.maestro_historico/
+node_modules/
+data/
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+Thumbs.db
+desktop.ini
